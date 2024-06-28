@@ -4,6 +4,7 @@ const app = express()
 const PORT = 8080
 const path = require("path")
 const modelService = require("./moduleService")
+app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 // modelService.testFx()
