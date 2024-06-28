@@ -34,7 +34,7 @@
     {
         "id": 1,
         "name":"CReSCENT: CanceR Single Cell ExpressioN Toolkit",
-        "description": "The Crescent Cancer Single Cell Expression Toolkit is a computational platform designed for the analysis and visualization of single-cell RNA sequencing data in cancer research. It facilitates the exploration of cellular heterogeneity, enabling researchers to identify distinct cell populations and their roles in cancer progression and treatment response.",
+        "description": "CReSCENT: Cancer Single Cell Expression Toolkit is a computational platform designed for the analysis and visualization of single-cell RNA sequencing data in cancer research. It facilitates the exploration of cellular heterogeneity, enabling researchers to identify distinct cell populations and their roles in cancer progression and treatment response.",
         "version": 4,
         "image":"/images/cres-logo.png",
         "url": "crescent.cloud",
@@ -181,8 +181,8 @@
         ],
         "contacts": [
             {
-                "name":"cBioPortal.ca Help",
-                "email":"cbioportal_group@uhn.ca"
+                "name":"CReSCENT Help",
+                "email":"crescent@uhnresearch.ca"
             }
         ],
         "category": 1
