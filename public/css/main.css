@@ -1081,13 +1081,6 @@ html {
   padding: 1rem;
 }
 
-.indicator {
-  position: relative;
-  display: inline-flex;
-  width: -moz-max-content;
-  width: max-content;
-}
-
 .indicator :where(.indicator-item) {
   z-index: 1;
   position: absolute;
@@ -2016,6 +2009,11 @@ html {
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-5xl {
