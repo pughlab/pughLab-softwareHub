@@ -1,0 +1,190 @@
+[
+    {
+        "id": 1,
+        "name":"cBioPortal for Cancer Genomics",
+        "description": "cBioPortal is an open-access resource that provides visualization, analysis, and download of large-scale cancer genomics data sets. It aims to make complex cancer genomic data accessible and understandable to researchers, enabling insights into cancer biology and potential therapeutic targets.",
+        "version": 4,
+        "image":"/images/cbio2.png",
+        "url": "cbioportal.ca",
+        "links": [
+            {
+                "url":"https://github.com/pughlab/cbioportal",
+                "name":"Core",
+                "icon": "fa-brands fa-github"
+            },
+            {
+                "url":"https://github.com/pughlab/cbioportal-frontend",
+                "name":"Web App",
+                "icon": "fa-brands fa-github"
+            },
+            {
+                "url":"https://pughlab.gitbook.io/cbioportal.ca-documentation",
+                "name":"Docs",
+                "icon": "fa-solid fa-book"
+            }
+        ],
+        "contacts": [
+            {
+                "name":"cBioPortal.ca Help",
+                "email":"cbioportal_group@uhn.ca"
+            }
+        ],
+        "category": 1
+    },
+    {
+        "id": 1,
+        "name":"CReSCENT: CanceR Single Cell ExpressioN Toolkit",
+        "description": "The Crescent Cancer Single Cell Expression Toolkit is a computational platform designed for the analysis and visualization of single-cell RNA sequencing data in cancer research. It facilitates the exploration of cellular heterogeneity, enabling researchers to identify distinct cell populations and their roles in cancer progression and treatment response.",
+        "version": 4,
+        "image":"/images/cres-logo.png",
+        "url": "crescent.cloud",
+        "links": [
+            {
+                "url":"https://github.com/pughlab/crescent",
+                "name":"Pipelines",
+                "icon": "fa-brands fa-github"
+            },
+            {
+                "url":"https://github.com/pughlab/crescent-frontend",
+                "name":"Web App",
+                "icon": "fa-brands fa-github"
+            },
+            {
+                "url":"https://pughlab.github.io/crescent-frontend/",
+                "name":"Docs",
+                "icon": "fa-solid fa-book"
+            }
+        ],
+        "contacts": [
+            {
+                "name":"CReSCENT Help",
+                "email":"crescent@uhnresearch.ca"
+            }
+        ],
+        "category": 1
+    },
+    
+    {
+        "id": 9,
+        "name":"TIGERdb: T-cell and ImmunoGlobulin Epitope Receptor DataBase",
+        "description": "some stuff",
+        "version": 4,
+        "image":"/images/tigerdb.png",
+        "url": "tigerdb.ca",
+        "links": [
+            {
+                "url":"https://github.com/pughlab/crescent",
+                "name":"Pipelines",
+                "icon": "fa-brands fa-github"
+            },
+            {
+                "url":"https://github.com/pughlab/crescent-frontend",
+                "name":"Web App",
+                "icon": "fa-brands fa-github"
+            },
+            {
+                "url":"https://pughlab.github.io/crescent-frontend/",
+                "name":"Docs",
+                "icon": "fa-solid fa-book"
+            }
+        ],
+        "contacts": [
+            {
+                "name":"CReSCENT Help",
+                "email":"crescent@uhnresearch.ca"
+            }
+        ],
+        "category": 1
+    },
+    {
+        "id": 2,
+        "name":"Oncographer: Standardized, Graph-Based, Clinical Data Abstraction Tool",
+        "description": "some stuff",
+        "version": 4,
+        "image":"/images/og-logo.png",
+        "url": "oncographer.ca",
+        "links": [
+            {
+                "url":"https://github.com/pughlab/oncographer",
+                "name":"Web App",
+                "icon": "fa-brands fa-github"
+            },
+            {
+                "url":"https://oncographer.ca",
+                "name":"Docs",
+                "icon": "fa-solid fa-book"
+            }
+        ],
+        "contacts": [
+            {
+                "name":"CReSCENT Help",
+                "email":"mcoder@uhnresearch.ca"
+            }
+        ],
+        "category": 1
+    },
+    {
+        "id": 1,
+        "name":"CTIMS: Clinical Trial Information Management System",
+        "description": "some text",
+        "version": 4,
+        "image":"/images/ctims.svg",
+        "url": "ctims.ca",
+        "links": [
+            {
+                "url":"https://github.com/pughlab/ctims",
+                "name":"Web App",
+                "icon": "fa-brands fa-github"
+            },
+            {
+                "url":"https://pughlab.gitbook.io/ctims",
+                "name":"Docs",
+                "icon": "fa-solid fa-book"
+            },
+            {
+                "url":"https://pughlab.gitbook.io/ctims/development-setup/architecture",
+                "name":"Dev Docs",
+                "icon": "fa-solid fa-book"
+            }
+        ],
+        "contacts": [
+            {
+                "name":"cBioPortal.ca Help",
+                "email":"cbioportal_group@uhn.ca"
+            }
+        ],
+        "category": 1
+    },
+    {
+        "id": 1,
+        "name":"PLBR: Phenomic Liquid Biopsy Repository",
+        "description": "some text",
+        "version": 4,
+        "image":"/images/plbr.png",
+        "url": "fragmentomics.ca",
+        "links": [
+            {
+                "url":"https://github.com/pughlab/ctims",
+                "name":"Web App",
+                "icon": "fa-brands fa-github"
+            },
+            {
+                "url":"https://pughlab.gitbook.io/ctims",
+                "name":"Docs",
+                "icon": "fa-solid fa-book"
+            },
+            {
+                "url":"https://pughlab.gitbook.io/ctims/development-setup/architecture",
+                "name":"Dev Docs",
+                "icon": "fa-solid fa-book"
+            }
+        ],
+        "contacts": [
+            {
+                "name":"cBioPortal.ca Help",
+                "email":"cbioportal_group@uhn.ca"
+            }
+        ],
+        "category": 1
+    }
+]

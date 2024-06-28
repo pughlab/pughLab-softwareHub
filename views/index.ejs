@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://kit.fontawesome.com/efeb3f9255.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body class="bg-gradient-to-b from-base-100 to-[#100f0f]">
+
+    <%- include('partials/navbar')%>
+
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+
+            <% models.forEach((model)=> { %>
+
+                <div class="mockup-window border bg-transparent hover:bg-opacity-5 hover:bg-gray-500 w-11/12 m-5">
+                    <div class="flex justify-center text-center">
+                        <div
+                            class="text-center rounded-xl border bg-gray-700 text-gray-200 font-mono w-11/12 mb-5">
+                            <i class="fa-solid fa-globe mr-1"></i><a href="https://<%= model.url%>">
+                                <%= model.url%>
+                            </a></div>
+
+                    </div>
+                    <div class="flex justify-center p-8 bg-transparent transition-transform transform hover:scale-110">
+                        <a href="https://<%= model.url%>">
+                        <img class="h-64" src="<%= model.image%>">
+                    </a>
+
+                    </div>
+                    <div class="card-body justify-center">
+                        <h2 class="card-title justify-center text-center text-primary">
+                            <%= model.name%>
+                        </h2>
+                        <p class="text-center text-sm">
+                            <%= model.description%>
+                        </p>
+                        <div class="divider divider-primary mt-6"><i class="fa-solid fa-external-link-alt text-primary"></i></div>
+
+                        <!-- <a href="/models?category=<%=model.category%>" class="btn btn-accent w-4 rounded-full text-center"><%= model.category%></a> -->
+
+                        <!-- Add contact button/card -->
+                        <div class="grid grid-cols-1 gap-4 justify-center">
+                            <% if(model.contacts && model.links) {%>
+                            <% model.contacts.forEach((contact)=> { %>
+
+                            <a href="mailto:<%=contact.email%>" class="btn btn-primary flex items-center justify-center p-1">
+                                <span class="text-sm flex items-center truncate"><i class="fa-solid fa-envelope text-lg mr-2"></i> <%=contact.email%></span>
+                            </a>
+                            <% })%>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-4 justify-center mt-4">
+
+                            <% model.links.forEach((link)=> { %>
+
+                            <a href="<%= link.url %>" class="btn btn-success flex items-center justify-center p-2">
+                                <span class="text-sm flex items-center truncate"><i class="<%=link.icon%> text-lg mr-2"></i> <%=link.name%></span>
+                            </a>
+                            <% })%>
+                            <%}%>
+                        </div>
+                            <!-- Add more buttons as needed -->
+                    </div>
+
+                    <div class="flex justify-center">
+                        <button class="btn btn-neutral rounded-none w-full justify-center">TRY ME</button>
+                        <!-- <a href="/models?category=<%=model.category%>" class="btn btn-primary rounded-none w-full justify-center"><%= model.category%></a> -->
+
+                    </div>
+
+                </div>
+                <% }) %>
+
+        </div>
+
+</body>
+
+</html>
